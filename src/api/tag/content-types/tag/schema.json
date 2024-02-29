@@ -11,23 +11,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "tag": {
+    "name": {
       "type": "string"
-    },
-    "color": {
-      "type": "string"
-    },
-    "blog_categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::blog-category.blog-category",
-      "mappedBy": "tags"
-    },
-    "blogs": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::blog.blog",
-      "mappedBy": "tags"
     }
   }
 }
